@@ -1,0 +1,130 @@
+.container{
+    margin-left: 18vw;
+    margin-top: 75px;
+    margin-right: 60px;
+    width: 60vw;
+    /* max-width: 850px; */
+    --animate-delay: 0.4s;
+}
+.title{
+    font-size: 38px;
+    font-weight: 800;
+    margin: 0;
+}
+.title2{
+    font-size: 22px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-weight: 600;
+    word-break: break-word;
+}
+.title3{
+    font-size: 26px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    word-break: break-word;    
+}
+
+
+
+.versusContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleVersus{
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 40%;
+    margin-top: 0;
+}
+._rigth{
+    text-align: right;
+}
+.desc{
+    margin: 10px 0 50px 0;
+    font-size: 22px;
+}
+.btn{
+    color: #000000;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    padding: 16px 0;
+    margin-top: 45px;
+    margin-bottom: 75px;
+    background-color: #F6ACE3;
+    border-radius: 50px;
+    border: none;
+    float: right;    
+    text-align: right;
+    right: 0;    
+    width: 208px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7b5e6;
+    box-shadow: 0 0 20px 5px #facbee ;
+    font-style: oblique;
+}
+._disabled {
+    color: #00000055;
+    background-color: #f6ace465;
+    cursor:auto;
+}
+._disabled:hover{
+    background-color: #f6ace465;
+    box-shadow: none ;
+    font-style: normal;
+}
+
+
+
+@media (max-width: 700px) {
+    .container{
+        margin-left: 10vw;
+        margin-top: 45px;
+        margin-right: auto;
+        width: 80vw;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .title2{
+        font-size: 22px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 42px;
+    }
+    .title3{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        margin-top: 40px;
+        font-weight: 600;
+        word-break: break-word;    
+    }
+    
+    
+    .titleVersus{
+        font-size: 16px;        
+    }
+    .desc{
+        margin: 10px 0 40px 0;
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 26px;
+        margin-top: 38px;
+        padding: 14px 0; 
+        width: 165px;
+        margin-right: 0;
+        margin-bottom: 85px;
+    }
+    
+}

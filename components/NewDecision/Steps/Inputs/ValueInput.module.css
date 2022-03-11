@@ -1,0 +1,79 @@
+.container{
+    margin-left: 80px;
+    margin-bottom: 5px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0);
+}
+._clicked{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+._hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+._one{
+    width: 40px;
+    height: 40px;
+}
+._two{
+    width: 43px;
+    height: 43px;
+}
+._three{
+    width: 46px;
+    height: 46px;
+}
+._four{
+    width: 49px;
+    height: 49px;
+}
+._five{
+    width: 52px;
+    height: 52px;
+}
+._six{
+    width: 55px;
+    height: 55px;
+}
+
+@media (max-width: 700px) {
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 280px;    
+}
+    
+._one{
+    width: 32px;
+    height: 32px;
+}
+._two{
+    width: 34px;
+    height: 34px;
+}
+._three{
+    width: 36px;
+    height: 36px;
+}
+._four{
+    width: 38px;
+    height: 38px;
+}
+._five{
+    width: 40px;
+    height: 40px;
+}
+._six{
+    width: 42px;
+    height: 42px;
+}
+
+}
